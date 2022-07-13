@@ -22,4 +22,5 @@
     <!-- Sensor trigger values -->
     <item name="pickup_sensor_value" format="float" type="dimen">1.0</item>
     <item name="pocket_sensor_value" format="float" type="dimen">0.0</item>
+
 </resources>
