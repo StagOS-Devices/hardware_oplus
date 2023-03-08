@@ -239,7 +239,7 @@ public class OPlusExtras extends PreferenceFragment
          * but we keep it to maintain consistency with the rest of the code
          **/
         boolean dolbyCategory = false;
-        dolbyCategory = displayCategory | isFeatureSupported(context, R.bool.config_deviceSupportsDolby);
+        dolbyCategory = isFeatureSupported(context, R.bool.config_deviceSupportsDolby);
         if (!dolbyCategory) {
             getPreferenceScreen().removePreference((Preference) findPreference(KEY_CATEGORY_DOLBY));
         }
